@@ -1,6 +1,6 @@
 # phpmailer-locaweb
 
-- Exemplo de formulário HTML para envio de e-mails utilizando a biblioteca PHPMailer
+- Exemplo de formulário HTML para envio de e-mails utilizando a biblioteca PHPMailer com suporte para anexar qualquer tipo de arquivo e ao após o envio redirecionar o usuário para uma nova página personalizada (página de obrigado, por exemplo).
 
 - Essa forma funcionou corretamente em uma hospedagem da Locaweb;
 
@@ -10,7 +10,6 @@
 <form action="enviar.php" method="post" enctype="multipart/form-data">
   <h1>Exemplo Formulário</h1>
   <p>Enviar formulário por e-mail com a biblioteca PHPMailer</p>
-  <br />
   <input type="text" name="nome" placeholder="Nome" />
   <input type="text" name="telefone" placeholder="Telefone" />
   <input type="email" name="email" placeholder="E-mail" />
@@ -57,7 +56,7 @@ $mailer->SMTPOptions = array(
 );
 
 // Configuração remetente
-$mailer->From = 'usuario@domimoo.com.br';
+$mailer->From = 'usuario@dominio.com.br';
 $mailer->FromName = 'Nome Completo';
 $mailer->Subject = 'Assunto da Mensagem';
 
@@ -128,7 +127,7 @@ $mailer->SMTPOptions = array(
 );
 
 // Configuração remetente
-$mailer->From = 'usuario@domimoo.com.br';
+$mailer->From = 'usuario@dominio.com.br';
 $mailer->FromName = 'Nome Completo';
 $mailer->Subject = 'Assunto da Mensagem';
 

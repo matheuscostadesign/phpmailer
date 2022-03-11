@@ -29,7 +29,7 @@ $mailer->SMTPOptions = array(
 );
 
 // Configuração remetente
-$mailer->From = 'usuario@domimoo.com.br';
+$mailer->From = 'usuario@dominio.com.br';
 $mailer->FromName = 'Nome Completo';
 $mailer->Subject = 'Assunto da Mensagem';
 
