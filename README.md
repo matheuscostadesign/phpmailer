@@ -1,6 +1,10 @@
 # phpmailer-locaweb
 
-- Exemplo de formulário HTML para envio de e-mails utilizando a biblioteca PHPMailer com suporte para anexar qualquer tipo de arquivo e ao após o envio redirecionar o usuário para uma nova página personalizada (página de obrigado, por exemplo).
+- Exemplo de formulário HTML para envio de e-mails utilizando a biblioteca PHPMailer com suporte para:
+  [x] Pegar qualquer tipo de input (Nome, e-mail, telefone, etc);
+  [x] Anexar arquivos;
+  [x] Redirecionar para uma página personalizada (página de obrigado, por exemplo após o envio);
+  [x] Possibilidade de utilizar um template de um arquivo HTML externo;
 
 - Essa forma funcionou corretamente em uma hospedagem da **Locaweb** e também em um ambiente de teste na rede local utilizando o servidor XAMPP;
 
