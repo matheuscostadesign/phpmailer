@@ -2,7 +2,7 @@
 
 - Exemplo de formulário HTML para envio de e-mails utilizando a biblioteca PHPMailer com suporte para anexar qualquer tipo de arquivo e ao após o envio redirecionar o usuário para uma nova página personalizada (página de obrigado, por exemplo).
 
-- Essa forma funcionou corretamente em uma hospedagem da Locaweb;
+- Essa forma funcionou corretamente em uma hospedagem da **Locaweb** e também em um ambiente de teste na rede local utilizando o servidor XAMPP;
 
 ## HTML
 
