@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de exemplo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form action="enviar.php" method="post" enctype="multipart/form-data">
+    <h1>Exemplo Formulário</h1>
+    <p>Enviar formulário por e-mail com a biblioteca PHPMailer</p><br>
+    <input type="text" name="nome" placeholder="Nome">
+    <input type="text" name="telefone" placeholder="Telefone">
+    <input type="email" name="email" placeholder="E-mail">
+    <label for="arquivo">Anexe um arquivo</label>
+    <input type="file" name="arquivo">
+    <textarea name="mensagem" cols="45" rows="5" placeholder="Digite a mensagem..."></textarea>
+    <button type="submit" class="button">Enviar mensagem</button>
+  </form>
+</body>
+
+</html>
