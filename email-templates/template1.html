@@ -2,21 +2,81 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Template 1</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width">
+  <title>Nova mensagem recebida</title>
 </head>
 
-<body>
+<body style="background-color: #0d1117 !important; font-family: 'Arial', sans-serif !important;">
+  <div id="email" style="width:600px !important; margin: 32px auto !important; background:#ffffff !important;">
 
-  <!-- Personalizar de acordo com a necessidade -->
-  <strong>Nome:</strong> {template_nome}<br>
-  <strong>Telefone:</strong> {template_telefone}<br>
-  <strong>E-mail:</strong> {template_email}<br>
-  <strong>Arquivo:</strong> {template_arquivo}<br>
-  <strong>Mensagem:</strong> {template_mensagem}<br>
+    <table role="presentation" border="0" width="100%" cellspacing="0">
+      <tr>
+        <td bgcolor="#8957e5" align="center" style="color: white;">
+          <div style="margin:0 0 6px 0;"></div>
+        </td>
+      </tr>
+    </table>
 
+    <table role="presentation" border="0" width="100%">
+      <tr>
+        <td align="center" style="padding-top: 30px;">
+          <img src="assets/logo.jpg" width="184" alt="Logo" align="center"><br><br>
+          <h2 style="font-size: 24px; margin:16px 0 0px 0; font-family: 'Arial', sans-serif;">
+            Nova mensagem recebida:
+          </h2>
+          <h3 style="font-size: 18px; color: #8957e5; font-family: 'Arial', sans-serif;">
+            Formulário de Contato
+          </h3>
+        </td>
+      </tr>
+    </table>
+
+    <table role=" presentation" border="0" width="100%" cellspacing="0">
+      <tr>
+        <td style="padding: 16px 30px 0px 60px;">
+          <span style="font-family: 'Arial', sans-serif; font-size:14px;">
+            <b>Nome:</b> <span style="color: #6F6F6F;">{template_nome}</span><br>
+            <br>
+            <b>Telefone:</b> <span style="color: #6F6F6F;">{template_telefone}</span><br>
+            <br>
+            <b>E-mail:</b> <span style="color: #6F6F6F;">{template_email}</span><br>
+            <br>
+            <b>Anexo:</b> <span style="color: #6F6F6F;">{template_arquivo}</span><br>
+            <br>
+            <b>Mensagem:</b> <span style="color: #6F6F6F;">{template_mensagem}</span><br>
+            <br>
+          </span>
+        </td>
+      </tr>
+    </table>
+
+    <table role="presentation" border="0" width="100%" cellspacing="0">
+      <tr>
+        <hr style="border: 1px solid #EDEDF3; border-top: 0; margin: 24px 0 32px 0">
+        <td bgcolor="#ffffff" align="center">
+          <a href="#" target="_blank" style="text-decoration: none; margin-right: 8px;">
+            <img src="assets/facebook.png" alt="Facebook" width="24" height="24">
+          </a>
+          <a href="#" target="_blank" style="text-decoration: none; margin-right: 8px;">
+            <img src="assets/linkedin.png" alt="Linkedin" width="24" height="24">
+          </a>
+          <a href="#" target="_blank" style="text-decoration: none; margin-right: 8px;">
+            <img src="assets/instagram.png" alt="Instagram" width="24" height="24">
+          </a>
+          <a href="#" target="_blank" style="text-decoration: none; margin-right: 8px;">
+            <img src="assets/youtube.png" alt="Youtube" width="24" height="24">
+          </a>
+          <a href="#" target="_blank" style="text-decoration: none">
+            <img src="assets/twitter.png" alt="Twitter" width="24" height="24">
+          </a>
+          <p style="margin:16px 0 32px 0; font-size:12px; color: #6F6F6F; font-family: 'Arial', sans-serif;">
+            Este e-mail foi enviado automaticamente. <br>Não responda esta mensagem.
+          </p>
+        </td>
+      </tr>
+    </table>
+  </div>
 </body>
 
 </html>
